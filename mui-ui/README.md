@@ -1,16 +1,78 @@
-# React + Vite
+# 🧪 Experiment–2.4: UI Design Using Material UI Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Aim
+To design a responsive user interface using **Material UI (MUI)** components in a React application.
 
-Currently, two official plugins are available:
+---
+![Experiment Screenshot](../Images/Experiment.2.4.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Software Requirements
+- Node.js
+- React (Vite)
+- Web Browser
+- Material UI (MUI)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Requirements
+- React
+- Material UI (`@mui/material`)
+- Emotion (`@emotion/react`, `@emotion/styled`)
+- MUI Icons (`@mui/icons-material`)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Setup / Installation
+
+### 1️⃣ Create React App using Vite
+```bash
+npm create vite@latest experiment-3-mui-ui -- --template react
+cd experiment-3-mui-ui
+npm install
+2️⃣ Install Material UI
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+3️⃣ Run the Project
+npm run dev
+✅ Components Used
+AppBar
+
+Toolbar
+
+Typography
+
+Container
+
+Grid
+
+Card
+
+TextField
+
+Buttons
+
+📌 Features Implemented
+Clean Material UI based layout
+
+Responsive grid system using MUI Grid
+
+Cards for content representation
+
+Form section using TextField
+
+Buttons with Material UI styling
+
+✅ Output
+The experiment displays a complete UI page using Material UI components including:
+
+Navigation bar (AppBar)
+
+Card layout
+
+Responsive grid
+
+Form inputs and buttons
+
+✅ Conclusion
+This experiment demonstrates how Material UI helps in building professional, responsive, and reusable UI components easily in React applications.
+
