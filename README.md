@@ -128,5 +128,7 @@ To run any experiment:
 npm install
 npm run dev
 
+![Screenshot](<Screenshot 2026-01-22 143725.png>)
+
 
 
