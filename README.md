@@ -128,7 +128,5 @@ To run any experiment:
 npm install
 npm run dev
 
-<img width="1858" height="836" alt="Screenshot 2026-01-22 143725" src="https://github.com/user-attachments/assets/670870c1-97d4-4390-93a4-36ca037585d2" />
-<img width="1829" height="1037" alt="Screenshot 2026-01-22 143938" src="https://github.com/user-attachments/assets/3416f342-855c-44ca-9653-1f65489edd9c" />
-<img width="1863" height="583" alt="Screenshot 2026-01-22 144016" src="https://github.com/user-attachments/assets/2fbbb76b-c43e-4742-b365-8aa24ab1b7e3" />
-<img width="1837" height="846" alt="Screenshot 2026-01-22 143840" src="https://github.com/user-attachments/assets/7564ea18-37b1-4028-958e-3d84b711d4b8" />
+![Screenshot](Screenshot%202026-01-22%20143725.png)
+
