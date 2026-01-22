@@ -1,4 +1,3 @@
-<img width="1858" height="836" alt="Screenshot 2026-01-22 143725" src="https://github.com/user-attachments/assets/ce8841a6-31be-4424-91d2-25c731f67140" />
 # UI Design Experiments using React + Component Libraries
 
 This repository contains multiple UI design experiments developed using **React** along with popular UI Component Libraries such as **Bootstrap** and **Material UI (MUI)**.
