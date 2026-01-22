@@ -128,5 +128,5 @@ To run any experiment:
 npm install
 npm run dev
 
-![Screenshot](Screenshot%202026-01-22%20143725.png)
+![Screenshot](./Screenshot%202026-01-22%20143725.png)
 
