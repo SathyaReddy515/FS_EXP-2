@@ -128,5 +128,6 @@ To run any experiment:
 npm install
 npm run dev
 
-![Screenshot](./Screenshot%202026-01-22%20143725.png)
+
+<img width="1858" height="836" alt="Screenshot 2026-01-22 143725" src="https://github.com/user-attachments/assets/04400f1a-af08-4a4f-aa6f-0a4df60b74e2" />
 
