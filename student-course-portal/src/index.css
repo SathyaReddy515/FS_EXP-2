@@ -1,0 +1,264 @@
+/* =========================================================
+   ✅ GLOBAL BASE STYLES
+   ========================================================= */
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f6f8fb;
+}
+
+/* =========================================================
+   ✅ DARK MODE (body.dark)
+   ========================================================= */
+
+body.dark {
+  background: #0b1220;
+  color: #e6e6e6;
+}
+
+body.dark .bg-white {
+  background: #101a2f !important;
+  color: #e6e6e6 !important;
+}
+
+body.dark .text-muted {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+body.dark .border {
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+body.dark .bg-light {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* =========================================================
+   ✅ COMMON REUSABLE UI STYLES
+   ========================================================= */
+
+/* Glass effect used in hero / cards */
+.glass-card {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+}
+
+/* Category cards hover effect */
+.category-card {
+  transition: transform 0.2s ease;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Scroll row (Home featured courses etc.) */
+.scroll-row {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.scroll-item {
+  min-width: 260px;
+  flex: 0 0 auto;
+}
+
+.scroll-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scroll-row::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+body.dark .scroll-row::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Sidebar active item */
+.list-group-item.active {
+  background: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+/* =========================================================
+   ✅ FEEDBACK PAGE STYLES
+   ========================================================= */
+
+.emoji-btn {
+  font-size: 2rem;
+  border: 2px solid transparent;
+  background: #f6f8fb;
+  padding: 12px 16px;
+  border-radius: 16px;
+  transition: 0.2s ease;
+}
+
+.emoji-btn:hover {
+  transform: translateY(-4px);
+  background: #ffffff;
+  border: 2px solid rgba(13, 110, 253, 0.25);
+}
+
+.emoji-btn.active {
+  background: rgba(13, 110, 253, 0.12);
+  border: 2px solid rgba(13, 110, 253, 0.55);
+}
+
+/* =========================================================
+   ✅ AUTH PAGES (Login/Register)
+   ========================================================= */
+
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(13, 110, 253, 0.12),
+    rgba(102, 16, 242, 0.1)
+  );
+}
+
+/* =========================================================
+   ✅ PREMIUM LANDING PAGE ONLY (Home.jsx)
+   ========================================================= */
+
+/* ✅ HERO background + full height */
+.landing-hero {
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(
+      1200px circle at 10% 10%,
+      rgba(255, 255, 255, 0.14),
+      transparent 40%
+    ),
+    radial-gradient(
+      900px circle at 90% 30%,
+      rgba(255, 255, 255, 0.1),
+      transparent 35%
+    ),
+    linear-gradient(135deg, #0d6efd 0%, #6610f2 55%, #111827 100%);
+}
+
+/* Prevent heading cut issue */
+.landing-hero h1 {
+  line-height: 1.15;
+}
+
+/* Badge */
+.hero-badge {
+  background: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.92);
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: inline-block;
+  font-weight: 700;
+}
+
+/* ✅ Premium Search Bar Wrapper */
+.hero-search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 760px;
+
+  /* Premium pill background */
+  background: rgba(255, 255, 255, 0.92);
+  padding: 10px;
+  border-radius: 18px;
+
+  /* Shadow for modern UI */
+  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.18);
+}
+
+.hero-search-input {
+  flex: 1;
+}
+
+/* remove internal MUI border */
+.hero-search .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+/* button style */
+.hero-search-btn {
+  min-width: 140px;
+  height: 56px;
+  border-radius: 14px;
+}
+
+/* ✅ Glass dashboard card */
+.hero-glass {
+  border-radius: 26px !important;
+  background: rgba(255, 255, 255, 0.17) !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+  backdrop-filter: blur(14px);
+
+  /* Stronger shadow = less empty look */
+  box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.25);
+}
+
+/* Stats */
+.hero-stat {
+  min-width: 150px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  transition: 0.25s ease;
+}
+
+.hero-stat:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hero-stat-k {
+  font-weight: 900;
+  font-size: 1.15rem;
+  color: white;
+}
+
+.hero-stat-v {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Feature icon box */
+.feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(13, 110, 253, 0.12);
+}
+
+/* CTA section */
+.landing-cta {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .landing-hero {
+    min-height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .hero-search {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-search-btn {
+    width: 100%;
+  }
+}
